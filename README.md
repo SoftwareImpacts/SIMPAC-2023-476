@@ -28,3 +28,19 @@ Ensure you have the following Python libraries installed:
 
    ```bash
    git clone https://github.com/jaikeerthy/ACO_GA_Code.git
+
+   Navigate to the project directory:
+
+bash
+Copy code
+cd ACO_GA_Code
+Run the code:
+
+bash
+Copy code
+python ACOGA.py
+Customization
+Adjust parameters in the acoGA_Fcn class constructor in ACOGA.py to fit your specific problem instance.
+Modify the code to read your own data if needed.
+Visualization
+Enable visualization by setting whether_or_not_to_show_figure=True in the acoGA_Fcn class constructor.
